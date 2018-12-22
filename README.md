@@ -14,7 +14,8 @@ sudo docker run -d \
   --max_members 4 \
   --username "CITRA ACCOUNT USERNAME"
   --token "CITRA ACCOUNT TOKEN" \
-  --announce-url https://api.citra-emu.org/lobby
+  --enable-citra-mods \
+  --web-api-url https://api.citra-emu.org/
 ```
 
 Room name should follow the below format.
